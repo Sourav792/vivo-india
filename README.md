@@ -1,4 +1,4 @@
-# Vivo Smartphone Website Frontend Development
+# Vivo Smartphone Website Frontend Clone
 ## Welcome to the frontend development repository for the Vivo Smartphone website. This project aims to create a responsive and visually appealing user interface using HTML, CSS, and JavaScript.
 
 
