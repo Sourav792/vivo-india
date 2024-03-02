@@ -1,0 +1,186 @@
+
+/* ------------------------nav links ( dropdown section ) --------------------------*/
+
+#dropdown:hover .dropdown-links {
+  display: block;
+}
+
+  .nav-links .dropdown-links {
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    background: var(--footer-heading-color);
+    left: 0;
+    top: 80px;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+  }
+  .dropdown-product {
+    width: 100%;
+    height: 250px;
+    padding: 0px 5%;
+  }
+  .d-product {
+    width: 190px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 0px 15px 0px;
+  }
+  .dp-img-container {
+    width: 170px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #88888815;
+  }
+  .dp-img-container:hover .d-product-img-2 {
+    transform: translateX(-20px);
+  }
+  .dp-img-container:hover .dp-product-img {
+    transform: translateX(10px);
+  }
+  .dp-img-container:hover .d-product-img {
+    padding-right: 15px;
+  }
+  .d-product-img-2 {
+    position: absolute;
+    left: -10;
+    top: 20;
+  }
+  .dp-product-img {
+    width: 105px;
+    height: 150px;
+    position: relative;
+    z-index: 3;
+  }
+  .d-product-img-1 {
+    width: 55px;
+    height: 150px;
+    position: absolute;
+    left: 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+.d-product-img-1 img {
+  width: 100%;
+  height: 100%;
+}
+  .d-product-img {
+    width: 55px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  .d-product-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .d-product-img-2 {
+    width: 105px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  .d-product-img-2 img {
+    width: 50%;
+    height: 100%;
+  }
+/* -----------------------------d product content p (before )------------------------------------- */
+  .before-new::after {
+    content: "NEW";
+    font-size: 0.5rem;
+    border: 0.5px solid var(--text-color);
+    padding: 4px 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+  }
+  /* -----------------------dropdown btn----------------------- */
+  .dropdown-btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+  }
+  .dropdown-btn-small {
+    width: 400px;
+    height: 40px;
+    padding: 0px 40px;
+    background-color: #88888815;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dropdown-btn-link {
+    height: 30px !important;
+  }
+  .dropdown-btn-link i {
+   margin-right: 12px;
+  }
+  
+/* --------------------------------------sign-in dropdown ----------------------------------------- */
+  /* #sign-in-dropdown:hover #dropdown-box {
+      display: block;
+  } */
+
+  #dropdown-box {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 240px;
+    height: 150px;
+    top: 80px;
+    right: -65px;
+    border-radius: 10px;
+    background: none;
+    
+  }
+  #dropdown-log-in {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 240px;
+    height: 130px;
+    background: #fcf9f9b6;
+  }
+  #dropdown-log-in hr {
+    width: 200px;
+    border-radius: 15px;
+    color: var(--footer-a);
+    opacity: 1;
+  }
+  #dropdown-log-in ul {
+    list-style: none;
+  }
+  #dropdown-log-in ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    width: 215px;
+    font-size: .8rem;
+    color: var(--text-color);
+  }
+  #dropdown-log-in ul li a span {
+     margin-right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 35px;
+  }
+  #dropdown-log-in ul li a span i {
+    font-size: .85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+  }

@@ -1,0 +1,691 @@
+
+/* -----------------------------------------(1024px)------------------------------------- */
+@media screen and (max-width: 1024px) {
+  /* ------------------------------header section------------------------------------ */
+  header {
+    padding: 10px 20px;
+  }
+  nav {
+    padding: 0px;
+  }
+  #nav-dropdown {
+    display: flex;
+  }
+  #nav-dropdown i:hover {
+    cursor: pointer;
+  }
+  #nav-logo {
+    width: 12%;
+  }
+  #nav-logo a {
+    font-size: 2rem;
+  }
+  #nav-logo a:hover {
+    color: var(--nav-logo-color);
+  }
+  .nav-links {
+    display: none;
+  }
+  .sign-in {
+    width: 10%;
+  }
+  /* ---------------------------------hero section------------------------------------------- */
+  .hero-section {
+    height: 450px;
+  }
+  /* ----------------------- customer care ---------------------------------- */
+  #customer-care {
+    width: 10%;
+  }
+  /* -------------------------------------main content------------------------------------- */
+  .main-section {
+    height: 1850px;
+    margin-top: 30px;
+  }
+  /* ----------------------------------m container section------------------------------------ */
+  .m-contaner-section {
+    height: 900px;
+  }
+  .m-container {
+    height: 400px;
+  }
+  .mc-link {
+    left: 70px;
+    top: 100px;
+  }
+  .mc-link img {
+    width: 200px;
+    height: 65px;
+  }
+  .mc-link h2 {
+    width: 260px;
+    font-size: 1.4rem;
+  }
+  .mc-link a {
+    margin-top: 25px;
+  }
+  /* -------------------------------discover section------------------------------------------- */
+  .discover-section {
+    padding: 20px 30px;
+    height: 890px;
+  }
+  .discover {
+    height: 860px;
+  }
+  .discover h1 {
+    margin-bottom: 20px;
+  }
+  /* ---------------------footer-------------- */
+  footer {
+    height: 800px;
+    justify-content: space-between;
+  }
+ /*---------------------------------------------top footer--------------------------------------*/
+  #top-footer {
+    width: 95%;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 20px;
+    gap: 30px;
+    height: 650px;
+    border: none;
+  }
+  /* --------------------------------------left top footer--------------------------------------- */
+  .lt-footer {
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+  }
+  .lt-ul {
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+  }
+  .lt-ul h3 {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    border-bottom: 0.5px solid var(--footer-a);
+  }
+  .lt-ul h3 i {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-right: 15px;
+  }
+  .lt-ul ul {
+    display: none;
+  }
+  /* -------------------------------------right top footer--------------------------------------- */
+  .rt-footer {
+    width: 100%;
+    height: 370px;
+    justify-content: start;
+  }
+  .rt-content {
+    height: 310px;
+  }
+  .rt-content a {
+    font-size: 1rem;
+  }
+  .rt-content a:hover , .rt-content a:hover span i{
+    color: var(--footer-a);
+  }
+  .rt-content a span i {
+    font-size: 0.9rem;
+  }
+  .rt-content p {
+    font-size: 1.5rem;
+  }
+  .rt-content p span {
+    font-size: 1rem;
+  }
+  /* ----------------------------------right top social------------------------------------- */
+  .rt-social {
+    height: 70px;
+  }
+  .social {
+    gap: 15px;
+  }
+  .social i {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+  }
+  .social i:hover {
+    color: var(--footer-background-color);
+    background-color: var(--footer-a);
+   }
+  /* --------------------------------------bottom footer------------------------------------------- */
+  #bottom-footer {
+    flex-direction: column-reverse;
+    align-items: start;
+    height: 130px;
+    width: 94%;
+  }
+  .right-b {
+    width: 100%;
+    padding-bottom: 35px;
+    border-bottom: 0.5px solid var(--footer-a);
+  }
+  .left-b {
+    padding-top: 20px;
+    height: 80px;
+  }
+  .left-b p {
+    display: block;
+    margin-bottom: 5px;
+  }
+  #b-stop {
+    display: none;
+  }
+}
+
+/* ----------------------------------------(768px)----------------------------------------- */
+@media screen and (max-width: 768px) {
+  /* ----------------------header section------------------------------- */
+  header, nav, #nav-dropdown, #nav-logo, .nav-links ul, .sign-in {
+    height: 60px;
+  }
+  #nav-logo {
+    margin-left: 5%;
+    width: 20%;
+  }
+  #nav-logo a {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .sign-in {
+    width: 13%;
+  }
+  /* ----------------------------hero section------------------------------------------------------ */
+  .hero-section {
+    width: 100%;
+    height: 600px;
+    margin-top: 230px;
+  }
+  .hero-section img {
+    width: 100%;
+    height: 600px;
+  }
+  /* --------------------------------------hero content----------------------------------- */
+  .hero-content {
+    width: 90%;
+    top: -200px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content img {
+    width: 130px;
+  }
+  .hero-content h2 {
+    margin-top: 30px;
+    width: 370px;
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  .hero-content a {
+    width: 160px;
+    margin: 35px 0px 0px 10px;
+  }
+  .hero-content a span i {
+    font-size: 1rem;
+    padding: 3px 12px;
+    border: 2px solid var(--text-color);
+  }
+  /* -------------------------------main section------------------------------------------------------ */
+  .main-section {
+    height: 5230px;
+    margin-top: 50px;
+  }
+  .m-contaner-section {
+    height: 1720px;
+  }
+  .m-container {
+    height: 800px;
+  }
+  .m-container img {
+    background-position: center;
+    background-size: cover;
+  }
+  .mc-link {
+    left: 35px;
+    top: 40px;
+    height: 200px;
+    width: 300px;
+  }
+  .mc-link img {
+    border-radius: 0px;
+    width: 230px;
+    height: 70px;
+  }
+  .mc-link h2 {
+    font-size: 1.8rem;
+    width: 300px;
+    font-weight: 500;
+  }
+  .mc-link a {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .mc-link a span i {
+    font-size: 1rem;
+    padding: 3px 12px;
+    border: 2px solid var(--footer-a);
+  }
+  /* ---------------discover section-------------------- */
+  .discover-section {
+    padding: 20px 30px;
+    height: 3400px;
+  }
+  .discover {
+    height: 3380px;
+  }
+  .discover h1 {
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+  }
+  /* -------------------------------------discover content-------------------------------------- */
+  .discover-content {
+    height: 3300px;
+    flex-direction: column;
+  }
+  .dis-content {
+    width: 100%;
+    height: 1400px;
+  }
+  .small-container, .big-container {
+    height: 48%;
+  }
+  #dc-2 {
+    height: 700px;
+  }
+  #dc-2 .dbl-big {
+    height: 100%;
+  }
+  .small-container img, .big-container img {
+    height: 70%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .dc-link, .ddc-link {
+    bottom: 50px;
+  }
+  .dc-link a, .ddc-link a {
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--text-color);
+  }
+  .dc-link a span, .ddc-link a span {
+    font-size: 1.5rem;
+  }
+  .dc-5 a, .dc-5 a span {
+    color: var(--text-color);
+  }
+}
+
+/* ------------------------------------(576px)------------------------------------- */
+@media screen and (max-width: 576px) {
+  /* --------------------------------header (sign in)------------------------------------------ */
+  .sign-in {
+    width: 15%;
+    padding: 0px;
+  }
+  /* ---------------------------------hero content-------------------------------------------- */
+  .hero-content {
+    left: 25px;
+  }
+  .hero-content a span i {
+    font-size: 0.9rem;
+    border: 2px solid var(--text-color);
+    padding: 2px 10px;
+  }
+   /* ----------------------- customer care ---------------------------------- */
+   #customer-care {
+    width: 12%;
+    right: 20px;
+  }
+  #customer-care a {
+    height: 35px;
+  }
+  #customer-care a i {
+    width: 50px;
+    height: 35px;
+    font-size: 1.1rem;
+  }
+  /* ----------------------------------------main section--------------------------------------- */
+  .main-section {
+    height: 3150px;
+    margin-top: 40px;
+  }
+  .m-contaner-section {
+    height: 850px;
+  }
+  .m-container {
+    height: 400px;
+  }
+  .mc-link {
+    left: 20px;
+    top: 35px;
+    height: 130px;
+    width: 200px;
+  }
+  .mc-link img {
+    border-radius: 0px;
+    width: 200px;
+    height: 50px;
+  }
+  .mc-link h2 {
+    font-size: 1.1rem;
+    width: 200px;
+  }
+  .mc-link a {
+    width: 150px;
+    font-size: 1rem;
+  }
+  .mc-link a span i {
+    font-size: 0.9rem;
+    border: 1px solid var(--footer-a);
+    padding: 2px 10px;
+  }
+  /* ------------------------------------discover section--------------------------------------- */
+  .discover-section {
+    padding: 15px 30px;
+    height: 2200px;
+  }
+  .discover {
+    height: 2150px;
+  }
+  .discover h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+  /* --------------------------------------discover section--------------------------------------- */
+  .discover-content {
+    height: 2100px;
+  }
+  .dis-content {
+    height: 1000px;
+  }
+  #dc-2 {
+    height: 430px;
+  }
+  #dc-2 .dbl-big {
+    height: 99%;
+  }
+  .small-container img, .big-container img {
+    height: 75%;
+  }
+  .dc-link, .ddc-link {
+    bottom: 15px;
+  }
+  .dc-link a, .ddc-link a {
+    font-size: 2.1rem;
+  }
+  .dc-link a span, .ddc-link a span {
+    font-size: 1.3rem;
+  }
+}
+
+/* ------------------------------------(485px)-------------------------------------------- */
+@media screen and (max-width: 485px) {
+  /* ---------------------------header section navbar-------------------------------------------- */
+  #nav-dropdown {
+    width: 10%;
+  }
+  .sign-in {
+    width: 17%;
+  }
+  /* -----------------------------------------hero section----------------------------------------- */
+  .hero-section {
+    width: 100%;
+    height: 450px;
+    margin-top: 170px;
+  }
+  .hero-section img {
+    width: 100%;
+    height: 450px;
+  }
+  /* ---------------------------------------------hero content------------------------------------- */
+  .hero-content {
+    width: 90%;
+    height: 200px;
+    top: -150px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content img {
+    width: 110px;
+    height: 60px;
+  }
+  .hero-content h2 {
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 350px;
+    font-size: 1.7rem;
+  }
+  .hero-content a {
+    width: 160px;
+    margin: 20px 0px 0px 15px;
+  }
+  .hero-content a span i {
+    font-size: 0.9rem;
+    border: 1px solid var(--text-color);
+    padding: 2px 10px;
+  }
+  /* ---------------------------------------main section------------------------------------------- */
+  .main-section {
+    height: 2650px;
+    margin-top: 40px;
+  }
+ .m-container, .m-container img {
+  border-radius: 15px;
+ }
+ /* ------------------------------------discover section---------------------------------------- */
+  .discover-section {
+    padding: 15px 30px;
+    height: 1700px;
+  }
+  .discover {
+    height: 1650px;
+  }
+  .discover h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+  /* -----------------------------------discover content---------------------------------------------- */
+  .discover-content {
+    height: 1600px;
+  }
+  .dis-content {
+    height: 700px;
+  }
+  #dc-2 {
+    height: 330px;
+  }
+  #dc-2 .dbl-big {
+    height: 99%;
+  }
+  .small-container img, .big-container img {
+    height: 72%;
+  }  
+  .dc-link, .ddc-link {
+    bottom: 20px;
+  }
+  .dc-link a, .ddc-link a {
+    font-size: 1.4rem;
+  }
+  .dc-link a span, .ddc-link a span {
+    font-size: 0.9rem;
+  }
+}
+
+/* -------------------------------------(425px)------------------------------------------- */
+@media screen and (max-width: 425px) {
+  /* -----------------------------------header section------------------------------------------ */
+  header {
+    padding: 10px 10px;
+  }
+  nav {
+    padding: 0;
+  }
+  #nav-dropdown {
+    width: 12%;
+  }
+  #nav-logo {
+    width: 22%;
+  }
+  .sign-in {
+    width: 17%;
+  }
+  .sign-in a i {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+  /* ---------------------------------------hero section----------------------------------------- */
+  .hero-section {
+    width: 100%;
+    height: 370px;
+    margin-top: 160px;
+  }
+  .hero-section img {
+    width: 100%;
+    height: 370px;
+  }
+  /* ---------------------------------hero content---------------------------------------------- */
+  .hero-content {
+    width: 90%;
+    top: -150px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content img {
+    width: 90px;
+    height: 50px;
+  }
+  .hero-content h2 {
+    width: 290px;
+    font-size: 1.5rem;
+  }
+  .hero-content a {
+    margin: 15px 0px 0px 30px;
+  }
+   /* ----------------------- customer care ---------------------------------- */
+   #customer-care {
+    width: 14%;
+  }
+  /* --------------------------------------bottom footer-------------------------------------- */
+  #bottom-footer {
+    flex-direction: column-reverse;
+    align-items: start;
+    height: 140px;
+    width: 94%;
+  }
+  .right-b {
+    padding-bottom: 15px;
+  }
+  .left-b {
+    padding-top: 10px;
+    height: 90px;
+  }
+}
+
+/* -------------------------------------(320px)---------------------------------------- */
+@media screen and (max-width: 320px) {
+  /* -----------------------------------header (sign in)------------------------------------- */
+  .sign-in {
+    width: 20%;
+  }
+  /* ------------------------------hero section ( hero content )-------------------------------- */
+  .hero-content {
+  left: 15px;
+  }
+  .hero-content img {
+  width: 90px;
+  height: 40px;
+  }
+  .hero-content h2 {
+  margin-left: 10px;
+  width: 240px;
+  font-size: 1.25rem;
+  }
+  .hero-content a {
+  width: 130px;
+  font-size: 1.2rem;
+  margin: 15px 0px 0px 20px;
+  }
+  .hero-content a span i {
+  font-size: 0.85rem;
+  border: 2px solid var(--text-color);
+  padding:2px 10px;
+  }
+   /* ----------------------- customer care ---------------------------------- */
+   #customer-care {
+    width: 18%;
+  }
+  /* ----------------------------------main section------------------------------------- */
+  .main-section {
+     height: 2300px;
+  }
+  /* -------------------------------------discover section--------------------------------- */
+  .discover-section {
+    height: 1350px;
+  }
+  .discover {
+  height: 1300px;
+  }
+  .discover h1 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+  }
+  /* -------------------------------------discover content-------------------------------------- */
+  .discover-content {
+  height: 1250px;
+  }
+  .dis-content {
+  height: 500px;
+  }
+  #dc-2 {
+  height: 230px;
+  }
+  .small-container img, .big-container img {
+  height: 65%;
+  }
+  .dc-link, .ddc-link {
+  bottom: 20px;
+  }
+  .dc-link a, .ddc-link a {
+  font-size: 1.1rem;
+  }
+  .dc-link a span, .ddc-link a span {
+  font-size: 0.7rem;
+  }
+/* -----------------------------------footer section------------------------------------------ */
+  footer {
+    height: 810px;
+  }
+  /* ----------------------------------top footer section-------------------------------------- */
+  #top-footer {
+    padding: 10px;
+  }
+  /* -----------------------------------bottom footer----------------------------------------- */
+  #bottom-footer {
+    padding: 10px;
+    height: 160px;
+  }
+  .left-b {
+    height: 100px;
+  }
+}
